@@ -1,0 +1,9 @@
+# Install per notebook (see README); pinned loosely on purpose because the Lexsi libraries move fast.
+transformers>=5.15
+datasets
+accelerate
+peft
+huggingface_hub
+matplotlib
+sentencepiece
+indic-transliteration
