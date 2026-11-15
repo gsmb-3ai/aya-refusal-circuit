@@ -1,0 +1,14 @@
+transformers>=5.15
+torch>=2.7
+peft
+datasets
+accelerate
+huggingface_hub
+matplotlib
+sentencepiece
+sacremoses
+indic-transliteration
+safetensors
+curatorkit
+auditkit
+safetune
