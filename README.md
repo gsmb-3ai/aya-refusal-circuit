@@ -19,7 +19,8 @@
 > 4. Three Lexsi repos are chained: CuratorKIT → SafeTune → AuditKIT. Everything ran on a free Kaggle T4 in about two hours.
 > 5. Start with Section 7.2 (results) and Section 7.6 (limitations).
 
-![Safety before and after](figures/before_after_safety.png)
+<img width="2400" height="784" alt="before_after_safety" src="https://github.com/user-attachments/assets/ef0fdbe6-8064-4311-a3ca-5db919e0645a" />
+
 *Figure 1. Refusal and jailbreak success for the base model, the drifted (domain) model, three repair strengths and a mixed-training baseline. Keyword labels; error bars are 95% bootstrap intervals.*
 
 ## Abstract
