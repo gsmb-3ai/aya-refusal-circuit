@@ -1,5 +1,7 @@
 # Repairing Safety Drift in Tiny Aya: a Weight-Space Safety Update Restores Refusals After Domain Fine-Tuning
 
+Start here. This README is the complete write-up: results in Section 7.2, limitations in Section 7.6, how to reproduce in Section 10. Code is in drift_repair/ and notebooks/aya-drift-repair-v3-kaggle.ipynb. The folder legacy_circuit_plan/ holds an earlier exploratory plan and is not used for any reported result.
+
 **One-line claim.** Adding the weight update of a separately trained safety adapter to a drifted Tiny Aya Global restores refusal and jailbreak resistance to roughly the base model's level without retraining the drifted model, but it does not recover lost maths ability and it is a trade-off against the safety adapter alone.
 
 **Tracks and problem statements covered**
