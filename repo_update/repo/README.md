@@ -3,8 +3,8 @@
 **One-line claim.** Adding the weight update of a separately trained safety adapter to a drifted Tiny Aya Global restores refusal and jailbreak resistance to roughly the base model's level without retraining the drifted model, but it does not recover lost maths ability and it is a trade-off against the safety adapter alone.
 
 **Tracks and problem statements covered**
-- **[T2b] Problem 9:** Repairing safety drift without retraining *(title as listed on the hackathon site; confirm the exact wording)*.
-- Also explored, with a negative result: **[T2b] Problem 5**, locating where safety lives (layer-gap analysis only; no circuit-based fix is claimed, see Section 7.5).
+- **[T2b] Problem 6:** Repairing safety drift without retraining.
+- Also explored, with a negative result: **[T2b] Problem 9**, locating where safety lives (layer-gap analysis only; no circuit-based fix is claimed, see Section 7.5).
 
 **Headline, before → after.** Refusal on languages held out of safety training: **52.1% (drifted) → 63.7% (repaired, α = 1.0)**, against 65.8% for the original model. Held-out jailbreak success: **66.2% → 50.0%** (base 51.2%).
 
@@ -19,7 +19,8 @@
 > 4. Three Lexsi repos are chained: CuratorKIT → SafeTune → AuditKIT. Everything ran on a free Kaggle T4 in about two hours.
 > 5. Start with Section 7.2 (results) and Section 7.6 (limitations).
 
-![Safety before and after](figures/before_after_safety.png)
+<img width="2400" height="784" alt="before_after_safety" src="https://github.com/user-attachments/assets/ef0fdbe6-8064-4311-a3ca-5db919e0645a" />
+
 *Figure 1. Refusal and jailbreak success for the base model, the drifted (domain) model, three repair strengths and a mixed-training baseline. Keyword labels; error bars are 95% bootstrap intervals.*
 
 ## Abstract
