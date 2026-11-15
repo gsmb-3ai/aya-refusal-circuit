@@ -3,8 +3,8 @@
 **One-line claim.** Adding the weight update of a separately trained safety adapter to a drifted Tiny Aya Global restores refusal and jailbreak resistance to roughly the base model's level without retraining the drifted model, but it does not recover lost maths ability and it is a trade-off against the safety adapter alone.
 
 **Tracks and problem statements covered**
-- **[T2b] Problem 9:** Repairing safety drift without retraining *(title as listed on the hackathon site; confirm the exact wording)*.
-- Also explored, with a negative result: **[T2b] Problem 5**, locating where safety lives (layer-gap analysis only; no circuit-based fix is claimed, see Section 7.5).
+- **[T2b] Problem 6:** Repairing safety drift without retraining.
+- Also explored, with a negative result: **[T2b] Problem 9**, locating where safety lives (layer-gap analysis only; no circuit-based fix is claimed, see Section 7.5).
 
 **Headline, before → after.** Refusal on languages held out of safety training: **52.1% (drifted) → 63.7% (repaired, α = 1.0)**, against 65.8% for the original model. Held-out jailbreak success: **66.2% → 50.0%** (base 51.2%).
 
