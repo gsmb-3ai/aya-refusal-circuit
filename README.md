@@ -61,7 +61,7 @@ Keyword-labelled refusal, percent. Full tables, intervals and caveats are in the
 - Base model and derived adapters: CC-BY-NC-4.0 (non-commercial), following [Tiny Aya Global](https://huggingface.co/CohereLabs/tiny-aya-global).
 - Translation model: [NLLB-200](https://huggingface.co/facebook/nllb-200-distilled-600M), CC-BY-NC-4.0.
 - Source datasets and their licenses are listed in the article.
-- Code in this repository: [Code in this repository: all rights reserved; contact the author for reuse.].
+- Code in this repository: all rights reserved; contact the author for reuse.
 
 ## Acknowledgements
 Lexsi Labs for the hackathon and the CuratorKIT, SafeTune, AuditKIT and CircuitKIT toolkits; Cohere for Tiny Aya; the JailbreakBench, AdvBench, XSTest, MGSM and Alpaca authors.
